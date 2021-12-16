@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Music Player</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="master.css">
+    <!-- FONT AWESOME  -->
+  <script src="https://kit.fontawesome.com/dbfc6a51e2.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+  <nav class="navigation-bar">
+    <div class="logo">
+      <div class="display-logo">
+        <img src="images/website_logo.png">
+      </div>
+      <div class="display-name">
+        <a href="index.html">
+        <h3><span>N</span>ayan</h3><h6>Musc Player</h6></a>
+      </div>
+    </div>
+    <div class="fav">
+      <h3>Favourites</h3>
+    </div>
+    <div class="search-bar">
+            <div>
+                <!-- magnifying glass- search icon -->
+                <i class="fas fa-search search-ico"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search">
+            <div>
+                <!-- mic icon -->
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+    </div>
+    <div class="notification">
+      <img src="images/bell_icon.png">  Notification
+    </div>
+    <div class="profile-pic">
+      <img src="images/profile_picture.png">
+    </div>
+    </nav>
+    <main>
+    <aside class="aside section-1">
+      <div class="outer-carousel">
+        <div class="carousel">
+          <img src="images/carousel/carousel1.jpg" alt="">
+          <img src="images/carousel/carousel2.jpg" alt="">
+          <img src="images/carousel/carousel3.jpg" alt="">
+        </div>
+      </div>
+      <div class="latest-release">
+        <h2 style=" margin-bottom: 8px; margin-top: 80px; ">Latest Release</h2>
+        <div class="latest-release-content">
+          <div class="card">
+            <div>
+              <img src="images/songs/baarish.jpg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Baarish</h3>
+              <p>march, 2021</p>
+            </div>
+            <div class="options">
+              <p>3:20</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/seeti.jpg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>SeetiMaar</h3>
+              <p>April, 2021</p>
+            </div>
+            <div class="options">
+              <p>3:17</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/falling.jpg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Falling</h3>
+              <p>Dec, 2020</p>
+            </div>
+            <div class="options">
+              <p>2:39</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/havana.jpg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Havana</h3>
+              <p>Dec, 2020</p>
+            </div>
+            <div class="options">
+              <p>3:37</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/shit.png">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Shit</h3>
+              <p>Dec, 2020</p>
+            </div>
+            <div class="options">
+              <p>3:20</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/sorry.jpg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Sorry</h3>
+              <p>Dec, 2020</p>
+            </div>
+            <div class="options">
+              <p>3:20</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/Weeknd.jpg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Weeknd</h3>
+              <p>Dec, 2020</p>
+            </div>
+            <div class="options">
+              <p>3:20</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div>
+              <img src="images/songs/willow.jpeg">
+              <div class="play-button">
+                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+              </div>
+            </div>
+            <div class="song-description">
+              <h3>Willow</h3>
+              <p>Dec, 2020</p>
+            </div>
+            <div class="options">
+              <p>3:20</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="popular-artist">
+        <h2 style=" margin-top: 70px;">Popular Artist</h2>
+        <div class="popular-artist-content">
+          <div class="artist-profile">
+            <img src="images/popular artists/honey.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/billie eilish.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/rahman.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/Camila Cabello.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/drake.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/ed sheeran.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/eminem.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/Katy perry.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/arijit.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/nicki minaj.jpg" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/posty.png" alt="">
+          </div>
+          <div class="artist-profile">
+            <img src="images/popular artists/sixnine.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="music-theme">
+        <div class="design">
+          <div class="colour1">
+            <div class="colour2">
+              <div class="colour3">
+                <img src="images/website_logo.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music-icon">
+          <div class="theme">
+            <img src="images/music themes/chill.jpg">
+            <p>Chill</p>
+          </div>
+          <div class="theme">
+            <img src="images/music themes/love.jpg">
+            <p>Love</p>
+          </div>
+          <div class="theme">
+            <img src="images/music themes/pop.jpg">
+            <p>Pop</p>
+          </div>
+          <div class="theme">
+            <img src="images/music themes/retro.jpg">
+            <p>Retro</p>
+          </div>
+          <div class="theme">
+            <img src="images/music themes/workout.jpg">
+            <p>GYM</p>
+          </div>
+          <div class="theme">
+            <img src="images/music themes/rock.jpg">
+            <p>Rock</p>
+          </div>
+        </div>
+      </div>
+      <div class="songs-on-mood">
+        <div class="mood">
+          <div class="mood-i">
+            <img src="images/music themes 2/electronic.jpg" alt="">
+            <span>Electronic</span>
+          </div>
+        </div>
+        <div class="mood">
+          <div class="mood-i">
+            <img src="images/music themes 2/party.jpg">
+            <span>Party</span>
+          </div>
+        </div>
+        <div class="mood">
+          <div class="mood-i">
+            <img src="images/music themes 2/road.jpg" alt="">
+            <span>Trip</span>
+          </div>
+        </div>
+      </div>
+      <div class="latest-english-release">
+        <h2>Latest English</h2>
+        <div class="english-content">
+          <div class="">
+            <img src="images/latest english/I'll Wait.jpg">
+            <h5>I'll wait</h5>
+            <p>Jan, 19 2018</p>
+          </div>
+          <div class="">
+            <img src="images/latest english/ily.jpg">
+            <h5>ILY</h5>
+            <p>Jan, 19 2018</p>
+          </div>
+          <div class="">
+            <img src="images/latest english/let me go.jpg">
+            <h5>Let me go</h5>
+            <p>Jan, 19 2018</p>
+          </div>
+          <div class="">
+            <img src="images/latest english/qurantine clean.jpg">
+            <h5>Qurantine Clean</h5>
+            <p>Jan, 19 2018</p>
+          </div>
+          <div class="">
+            <img src="images/latest english/roar.jpg">
+            <h5>Roar</h5>
+            <p>Jan, 19 2018</p>
+          </div>
+          <div class="">
+            <img src="images/latest english/toosie slide.jpg">
+            <h5>Toosie Slide</h5>
+            <p>Jan, 19 2018</p>
+          </div>
+        </div>
+      </div>
+      <div class="latest-hindi">
+        <h2 style="margin-top: 20px; margin-bottom: 10px;">Latest Hindi</h2>
+        <div class="hindi-content-list">
+          <div class="hindi-content">
+            <img src="images/latest hindi/baarish.jpeg">
+            <h5>Baarish</h5>
+            <p>feb, 20</p>
+          </div>
+          <div class="hindi-content">
+            <img src="images/latest hindi/galiyaan.jpg">
+            <h5>Galiyan</h5>
+            <p>feb, 20</p>
+          </div>
+          <div class="hindi-content">
+            <img src="images/latest hindi/giveme some sunshine.jpg">
+            <h5>Giveme Some S..</h5>
+            <p>feb, 20</p>
+          </div>
+          <div class="hindi-content">
+            <img src="images/latest hindi/kaun tujhe.jpg">
+            <h5>Kaun Tujhe</h5>
+            <p>feb, 20</p>
+          </div>
+          <div class="hindi-content">
+            <img src="images/latest hindi/tera ban jaunga.jpg">
+            <h5>Tera Ban Jaunga</h5>
+            <p>feb, 20</p>
+          </div>
+          <div class="hindi-content">
+            <img src="images/latest hindi/tere sang yara.jpg">
+            <h5>Tere Sang Yara</h5>
+            <p>feb, 20</p>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+    <aside class="aside section-2">
+      <div class="playlistsss">
+        <a href="playlist-screen.html">
+          <h2>Playlist</h2></a>
+      </div>
+
+        <div class="playlist-content">
+            <div class="content-items">
+              <div class="numbering">
+                <span>01. </span>
+              </div>
+              <div class="">
+                <img src="images/playlist/billie eilish.jpg" alt="">
+              </div>
+              <div class="song-name">
+                Lovely <p>Billie Eilish</p>
+              </div>
+              <div class="right-content">
+                          <i class="far fa-heart"></i>
+              </div>
+            </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>02. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/austin.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Alone  <p>Alan Walker</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>03. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/roar.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Roar <p>Katy Perry</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>04. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/stoney.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Rockstar <p>Post Malano</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>05. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/stoney.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Psycho <p>Post Malano</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>06. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/de.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Deja Vu <p>Justin Biber</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>07. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/beer.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Sunflower <p>Post Malano</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>08. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/alan.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Faded <p>Alan Walker</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>09. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/memories.jpg" alt="">
+            </div>
+            <div class="song-name">
+              Memories <p>Maroon 5</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="numbering">
+              <span>10. </span>
+            </div>
+            <div class="">
+              <img src="images/playlist/billie eilish.jpg" alt="">
+            </div>
+            <div class="song-name">
+              bad guy <p>Billie Eilish</p>
+            </div>
+            <div class="right-content">
+                        <i class="far fa-heart"></i>
+            </div>
+          </div>
+        </div>
+    </aside>
+    </main>
+    <footer>
+
+        <div class="song-play">
+          <div class="song-image">
+            <img src="images/playlist/roar.jpg" alt="">
+          </div>
+          <div class="song-name1">
+            <h6>Roar</h6>
+            <p>Ketty Perry</p>
+          </div>
+        </div>
+        <div class="player">
+          <!-- <div class="control1">
+            <div><i class="fas fa-random"></i></div>
+            <div><i class="fas fa-step-backward"></div>
+            <div><i class="fas fa-pause-circle"></i></div>
+            <div><i class="fas fa-step-forward"></i></div>
+            <div><i class="fas fa-redo"></i></div>
+          </div> -->
+          <div class="sliders">
+            <div class="time"> 01:44</div>
+            <div class="slidecontainer">
+                <input type="range" min="0"style="width: 500px;" max="100" value="0" class="slider" id="myRange">
+            </div>
+            <div class="time"> 04:05      </div>
+          </div>
+        </div>
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" style="width: 100px;" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
